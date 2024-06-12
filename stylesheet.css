@@ -1,10 +1,13 @@
 * {
+
     padding:0px;
     margin: 0px;
     box-sizing: border-box;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+html {
+    background-color: #566375;
+}
 .container {
     background-color: #566375;
     padding:2rem;
@@ -89,12 +92,27 @@
         font-size: 1.5rem;
         padding: 1rem;
         border-radius: 20px;
+
     }
     .container {
         padding-top: 3rem;
+        
+
 
     }
     .buttons-grid {
         gap: 0.7rem;
+    }
+    .background p {
+        font-size: 3rem;
+        color: white;
+        margin: 2rem 0rem;
+        max-width: 9ch;
+        overflow: hidden;
+    }
+    .theme {
+
+        left: 15px;
+        top:12px;
     }
 }
